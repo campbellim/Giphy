@@ -1,0 +1,95 @@
+
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 150px;
+    width: 100wh;
+    min-height: 100%;
+    font-size: 18px;
+    text-align: center;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, rgb(71, 60, 231), #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+
+}
+h1,
+h2,
+h3 {
+    font-weight: 700 ;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1 {
+    padding: 10px 0 15px 0;
+    color:#0d0f6b ;
+}
+
+h4 {
+    font-style: italic;
+}
+
+.container {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.gif-container p {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.img-cropper {
+    overflow: hidden;
+    width: 100%;
+    max-height: 250px;
+}
+
+.img-cropper {
+    border: 5px solid white;
+    vertical-align: middle;
+}
+
+.img-cropper:hover {
+    border: 5px solid #684efa ;
+    height: auto;
+}
+
+
+
+
+.btn {
+    padding: 14px 24px;
+    margin: 10px;
+    border: 0 none;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #6d4efa;
+    color: black t;
+    box-shadow: 2px 2px 5px black;
+    border: none ;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #7c4efa ;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #8a4efa;
+    border: none;
+
+}
+
+.btn-lg.round {
+	border-radius: 24px;
+}
